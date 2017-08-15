@@ -1,0 +1,79 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1>Animations</h1>
+      <button class="btn btn-primary" (click)="onAnimate()">Animate!</button>
+      <button class="btn btn-primary" (click)="onShrink()">Shrink!</button>
+      <hr>
+      <div style="width: 100px; height: 100px;" [@divstate]="state">
+      </div>
+      <div style="width: 100px; height: 100px;" [@wildstate]="wildstate">
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-xs-12">
+
+
+      <div class="morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
+        <button type="button" appMorphBtn>Login</button>
+
+        <div class="morph-content">
+          <div>
+            <div class="hidden-content">
+              <span class="icon icon-close">Close the dialog</span>
+              <h2>Login</h2>
+              <form>
+                <p><label>Email</label><input type="text" /></p>
+                <p><label>Password</label><input type="password" /></p>
+                <p><button>Login</button></p>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- morph-button -->
+
+      <div class="morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
+        <button type="button" appMorphBtn>Login</button>
+
+        <div class="morph-content">
+          <div>
+            <div class="hidden-content">
+              <span class="icon icon-close">Close the dialog</span>
+              <h2>Login</h2>
+              <form>
+                <p><label>Email</label><input type="text" /></p>
+                <p><label>Password</label><input type="password" /></p>
+                <p><button>Login</button></p>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- morph-button -->
+
+
+      <div class="morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
+        <button type="button" appMorphBtn>Login</button>
+
+        <div class="morph-content">
+          <div>
+            <div class="hidden-content">
+              <span class="icon icon-close">Close the dialog</span>
+              <h2>Login</h2>
+              <form>
+                <p><label>Email</label><input type="text" /></p>
+                <p><label>Password</label><input type="password" /></p>
+                <p><button>Login</button></p>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- morph-button -->
+
+    </div>
+  </div>
+</div>
